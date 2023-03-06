@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Registration</title>
+	</head>
+	<body>
+		<section>
+			<header>
+				<img src="Friends.jpg" alt="An image of a group of Friends">
+				<nav><h3><center><u>Friedship Zone</u></center></h3></nav>
+			</header>
+		</section>
+		<section>
+			<form>
+				<header>
+					<h4>Add your details to register</h4>
+				</header>
+				<article>
+					<table>
+						<tr>
+							<label for="username">Username: </label>
+							<input type="text" name="username" id="username">
+						</tr><br><br>
+						<tr>
+							<label for="email">Your email: </label>
+							<input type="email" name="email" id="email">
+						</tr><br><br>
+						<tr>
+							<label for="age">Age: </label>
+							<input type="number" name="age" id="age">
+						</tr><br><br>
+						<tr>
+							<label for="dob">Date of birth: </label>
+							<input type="date" name="dob" id="dob">
+						</tr><br><br>
+						<tr>
+							<label for="gender">Gender: </label>
+							<input type="radio" name="gender" id="female"><label for="female">Female</label>
+							<input type="radio" name="gender" id="male"><label for="male">Male</label>	
+						</tr><br><br>
+						<tr>
+							<label for="about">About: </label>
+							<textarea name="about" id="about" rows="10" cols="40"></textarea>
+						</tr><br><br>
+						<tr>
+							<label for="phone">Phone: </label>
+							<input type="tel" name="phone" id="phone" pattern="[0-9]{5}-[0-9]{5}">
+						</tr><br><br>
+						<tr>
+							<label for="interst">Interested In: </label>
+							<input type="checkbox" name="interst" id="interst"><label>Friendship</label>
+							<input type="checkbox" name="interst" id="interst"><label>Dating</label>
+						</tr><br><br>
+						<input type="submit" name="register" value="Register"></a>&nbsp;&nbsp;
+						<input type="submit" name="registerasadmin" value="Register as Admin">
+					</table>
+			</form>
+		</section>
+	</body>
+</html>
